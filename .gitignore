@@ -1,0 +1,15 @@
+# Ignore Rust build output
+/target
+
+# Ignore environment files
+.env
+.env.*
+!.env.example
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
