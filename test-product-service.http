@@ -1,5 +1,10 @@
 # Test the product-service
-
 ### Get list of products
+
+### Local products
 GET http://localhost:3030/products
+Accept: application/json
+
+### Azure products
+GET http://product-service-mwg-e8fmbtgehbdbhfga.swedencentral-01.azurewebsites.net/products
 Accept: application/json
